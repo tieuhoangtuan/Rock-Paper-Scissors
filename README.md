@@ -1,3 +1,3 @@
 # Rock-Paper-Scissors game 👊🧻✂️
-🔥 This game is made according to the rock-paper-scissors game of [***ashleynguci***](http://https://github.com/ashleynguci) 🔥
+🔥 This game is made according to the rock-paper-scissors game of [***ashleynguci***](http://github.com/ashleynguci) 🔥
 
