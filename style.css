@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg.jpg);
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+header > h1{
+    text-align: center;
+    color: #a3b0c1;
+    font-family: "Roboto Mono";
+}
+
+.score-board {
+    width: 25%;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 45px;
+    margin: 20px auto;
+    color: white;
+    padding: 15px 20px;
+    position: relative;
+    font-family: "Roboto Mono";
+    text-align: center;
+}
+
+.tag {
+    background: #f95659;
+    color: snow;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: "Roboto Mono";
+}
+
+#user {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer {
+    position: absolute;
+    top: 30px;
+    right: -28px;
+}
+
+.result {
+    color: snow;
+    font-size: 40px;
+}
+.result > p {
+    text-align: center;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+}
+
+.choices {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    margin: 50px 0;
+}
+
+.choice {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.choice > img {
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+    width: 100px;
+    height: 100px;
+}
+
+.choice > img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.meme {
+    /* margin-bottom: 30px; */
+    margin: 30px 0;
+    text-align: center;
+}
+
+#show-meme {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
